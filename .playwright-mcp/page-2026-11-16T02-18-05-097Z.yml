@@ -1,0 +1,93 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "旅伴 WAYFARER" [ref=e4] [cursor=pointer]:
+      - /url: "#"
+      - text: 旅伴
+      - generic [ref=e9]: WAYFARER
+    - button "研究記錄 0" [ref=e10] [cursor=pointer]:
+      - text: 研究記錄
+      - generic [ref=e11]: "0"
+  - generic [ref=e12]: 互動原型 · 所有資料與推薦皆為模擬，並非真實即時查證
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - text: 我的旅行
+      - generic [ref=e16]: /
+      - text: 京都漫遊
+      - generic [ref=e17]: /
+      - text: 旅途應變
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: A LITTLE CHANGE, A NEW POSSIBILITY
+        - heading "計畫有變，旅途繼續。" [level=1] [ref=e21]
+        - paragraph [ref=e22]: 先看懂當下的資訊，再選一個適合你的下一步。
+      - generic [ref=e27]:
+        - text: KYOTO, JAPAN
+        - strong [ref=e29]: 京都・慢遊日記
+    - navigation "應變進度" [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]: "1"
+        - text: 告訴我現況
+      - generic [ref=e33]:
+        - generic [ref=e34]: "2"
+        - text: 了解資訊與選項
+      - generic [ref=e35]:
+        - generic [ref=e36]: "3"
+        - text: 選擇下一步
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]: 01 / 了解你的狀況
+        - heading "旅行遇到了什麼變化？" [level=2] [ref=e40]
+        - generic [ref=e41]:
+          - button "主動回報問題" [ref=e42] [cursor=pointer]
+          - button "從既有行程調整" [ref=e43] [cursor=pointer]
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - text: 問題描述
+            - textbox "問題描述" [ref=e46]:
+              - /placeholder: 例如：到現場才發現景點沒開…
+              - text: 到現場才發現美術館休館，接下來怎麼辦？
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - generic [ref=e49]: 目前位置
+              - textbox "目前位置" [ref=e53]: 京都・岡崎
+            - generic [ref=e54]:
+              - generic [ref=e55]: 目的地當地時間
+              - textbox "目的地當地時間" [ref=e59]: 2026-11-15T10:00
+          - generic [ref=e60]:
+            - text: 目的地時區
+            - combobox "目的地時區" [ref=e61]:
+              - option "Asia/Tokyo" [selected]
+              - option "Asia/Taipei"
+              - option "Europe/Paris"
+          - generic [ref=e62]:
+            - text: 原安排
+            - textbox "原安排" [ref=e63]: 10:00 美術館 → 13:00 午餐
+          - generic [ref=e64]:
+            - checkbox "沒有原安排" [ref=e65]
+            - text: 沒有原安排
+          - button "查看資訊與應變選項" [ref=e66] [cursor=pointer]
+          - paragraph [ref=e69]: 你可以自由比較，原行程不會自動被修改。
+      - complementary [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e72]: 試試這些情境
+          - heading "如果旅途突然轉彎" [level=2] [ref=e73]
+          - paragraph [ref=e74]: 選擇一個展示情境，體驗不同的下一步。
+          - button "景點臨時休館 原定景點今天沒有開" [ref=e75] [cursor=pointer]:
+            - generic [ref=e78]:
+              - strong [ref=e79]: 景點臨時休館
+              - generic [ref=e80]: 原定景點今天沒有開
+          - button "交通延誤 電車誤點，行程怎麼調整" [ref=e83] [cursor=pointer]:
+            - generic [ref=e88]:
+              - strong [ref=e89]: 交通延誤
+              - generic [ref=e90]: 電車誤點，行程怎麼調整
+          - button "餐廳無法前往 想找附近的替代用餐地點" [ref=e93] [cursor=pointer]:
+            - generic [ref=e97]:
+              - strong [ref=e98]: 餐廳無法前往
+              - generic [ref=e99]: 想找附近的替代用餐地點
+        - generic [ref=e102]:
+          - heading "安心，不代表假裝確定。" [level=3] [ref=e106]
+          - paragraph [ref=e107]: 每項資訊都會說明來源與可信度。即使尚未確認，你也能查看推薦地點或行程，再決定怎麼走。
+  - contentinfo [ref=e108]:
+    - generic [ref=e109]: 旅伴 WAYFARER
+    - generic [ref=e110]: 留一點彈性，給旅途的驚喜。
+    - generic [ref=e111]: Prototype · 京都展示情境

@@ -1,0 +1,57 @@
+{
+  "session": "d00d02a6-bd8e-446d-9be5-df26d749b5db",
+  "metrics": {
+    "total": 2,
+    "finished": 1,
+    "uncertain": 2,
+    "errors": 0,
+    "completion": "資料不完整",
+    "error": "資料不完整"
+  },
+  "tasks": [
+    {
+      "id": "e65875c8-fa7d-4175-841f-431f27d49b74",
+      "session": "d00d02a6-bd8e-446d-9be5-df26d749b5db",
+      "scenario": "train",
+      "entry": "itinerary",
+      "start": "2026-11-16T02:07:46.817Z",
+      "end": "2026-11-16T02:07:47.174Z",
+      "status": "已選擇",
+      "states": [
+        "已確認",
+        "已確認",
+        "無法確認"
+      ],
+      "selected": "bus",
+      "opened": [
+        "original"
+      ],
+      "completed": "是",
+      "misbelief": "否",
+      "understood": "是",
+      "external": "是",
+      "notes": "自動化功能驗收，非使用者研究。"
+    },
+    {
+      "id": "bf221cfa-1e8b-4dcc-a72f-c62616902365",
+      "session": "d00d02a6-bd8e-446d-9be5-df26d749b5db",
+      "scenario": "train",
+      "entry": "itinerary",
+      "start": "2026-11-16T02:11:25.024Z",
+      "end": "2026-11-16T02:11:25.044Z",
+      "status": "放棄",
+      "states": [
+        "已確認",
+        "已確認",
+        "無法確認"
+      ],
+      "selected": null,
+      "opened": [],
+      "completed": "未評估",
+      "misbelief": "未評估",
+      "understood": "未評估",
+      "external": "未評估",
+      "notes": ""
+    }
+  ]
+}
