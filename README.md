@@ -1,5 +1,9 @@
 # 旅伴 Wayfarer
 
+公開原型：https://janinakao9-collab.github.io/trips-schedule-034/
+
+GitHub Pages 由 `.github/workflows/deploy.yml` 在推送 `main` 後自動測試、建置及部署。正式建置的基底路徑為 `/trips-schedule-034/`；本機開發仍使用根路徑。
+
 旅行應變互動原型，採 React、TypeScript、Vite。所有情境與推薦皆為模擬，沒有真實即時資料或 AI API。
 
 ## 執行
