@@ -1,0 +1,74 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "旅 旅序 TABI" [ref=e4] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e5]: 旅
+      - text: 旅序
+      - generic [ref=e6]: TABI
+    - generic [ref=e7]:
+      - generic [ref=e8]: Prototype・模擬資料
+      - button "研究紀錄 ↗" [ref=e9] [cursor=pointer]
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e13]: YOUR JOURNEY, REASSURED.
+        - heading "計畫有變， 下一步依然從容。" [active] [level=1] [ref=e14]: 計畫有變，下一步依然從容。
+        - paragraph [ref=e15]: 遇到旅行中的小插曲？看懂資訊、比較選項，找到適合你的下一步。
+        - button "回報遇到的問題 ↗" [ref=e16] [cursor=pointer]:
+          - text: 回報遇到的問題
+          - generic [ref=e17]: ↗
+        - paragraph [ref=e18]: 只需一個情境，開始練習應變。
+      - generic [aria-hidden] [ref=e19]:
+        - generic [ref=e20]:
+          - text: TOKYO, JAPAN
+          - generic [ref=e21]: 35.71° N
+        - generic [ref=e25]: ●美術館 休館
+        - generic [ref=e26]: ●公園散步 ↗
+        - generic [ref=e27]: ●午餐 12:00
+        - generic [ref=e28]:
+          - text: A LITTLE CHANGE.
+          - strong [ref=e29]: A NEW POSSIBILITY.
+          - generic [ref=e30]: ✳
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: TODAY’S ITINERARY
+        - heading "從旅程中的一刻開始" [level=2] [ref=e34]
+      - generic [ref=e35]: 東京示範旅程 · 11 月 15 日
+    - generic [ref=e36]:
+      - article [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: "01"
+          - generic [ref=e40]: 景點休館
+        - heading "美術館臨時休館" [level=3] [ref=e41]
+        - paragraph [ref=e42]: 抵達現場，才發現今天無法入館
+        - generic [ref=e43]: 10:00 · 東京・上野公園
+        - button "需要調整 →" [ref=e44] [cursor=pointer]:
+          - text: 需要調整
+          - generic [ref=e45]: →
+      - article [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: "02"
+          - generic [ref=e49]: 交通延誤
+        - heading "列車延誤，行程需要緩衝" [level=3] [ref=e50]
+        - paragraph [ref=e51]: 原定路線暫停，下一站怎麼走？
+        - generic [ref=e52]: 11:00 · 東京・上野車站
+        - button "需要調整 →" [ref=e53] [cursor=pointer]:
+          - text: 需要調整
+          - generic [ref=e54]: →
+      - article [ref=e55]:
+        - generic [ref=e56]:
+          - generic [ref=e57]: "03"
+          - generic [ref=e58]: 餐廳無法前往
+        - heading "午餐餐廳的資訊不一致" [level=3] [ref=e59]
+        - paragraph [ref=e60]: 兩份公告不同，先釐清再決定
+        - generic [ref=e61]: 12:00 · 東京・淺草
+        - button "需要調整 →" [ref=e62] [cursor=pointer]:
+          - text: 需要調整
+          - generic [ref=e63]: →
+    - generic [ref=e64]:
+      - generic [ref=e65]: 01 看清來源 每項資訊都有依據
+      - generic [ref=e66]: 02 理解不確定 不把未知當確定
+      - generic [ref=e67]: 03 自己做決定 方案由你選擇
+  - contentinfo [ref=e68]:
+    - generic [ref=e69]: 旅序 TABI · 讓每個下一步更有把握
+    - generic [ref=e70]: Prototype・模擬資料，非真實旅行建議
